@@ -1,0 +1,14 @@
+[
+  {
+    "index": 1,
+    "label": "0",
+    "num_of_nodes": 100,
+    "num_of_edges": 200,
+    "degree_centrality": 0.1,
+    "num_cliques": 5,
+    "local_clustering": 0.3,
+    "average_neighbor_degree": 4.5,
+    "clustering_coefficient": 0.25,
+    "pagerank": 0.0012
+  }
+]

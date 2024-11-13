@@ -1,0 +1,4 @@
+#忽略bgp数据
+/data
+#忽略ide文件
+.idea

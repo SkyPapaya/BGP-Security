@@ -1,0 +1,11 @@
+# bgp_downloader_fast
+- 使用说明
+    - 运行downloader.py -c [collector] -d [datatype] -s [start_time] -e [end_time]
+    - 可选参数：collector,datatype,start-time,end-time
+        - collector:可以是具体的收集器，也可以是all
+        - datatype:数据类型(updates/ribs)
+        - start_time/end_time:xxxx-xx-xx-xx:xx
+    - -h获取帮助
+    - 例子
+        - python3 downloader.py -c rrc00,rrc01 -d updates -s 2017-01-01-10:00 -e 2017-01-01-10:30
+        - python3 downloader.py -c all -d ribs -s 2017-01-01-10:00 -e 2017-01-02-10:00

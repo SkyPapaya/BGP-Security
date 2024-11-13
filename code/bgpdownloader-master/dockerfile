@@ -1,0 +1,22 @@
+# 基础镜像
+FROM ubuntu:20.04
+
+# 配置工作目录
+WORKDIR /app
+
+# 复制当前目录下的所有文件到工作目录中
+COPY . .
+
+# 更新apt-get源并一次安装所需的组件
+RUN apt-get update && \
+    apt-get install -y python3.8 && \
+    apt-get install -y python3-pip && \
+    apt-get install cron -y && \
+    apt-get install vim -y && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/* &&\
+    pip install -r /app/requirements.txt && \
+    echo "172.30.16.104 minio.lab" >> /etc/hosts
+
+# 将python3.8作为默认Python版本
+RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.8 1
