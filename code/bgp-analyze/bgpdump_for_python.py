@@ -37,6 +37,6 @@ def parse_bz2_files(input_folder, output_folder):
 
 
 if __name__ == "__main__":
-    input_folder = "/home/skypapaya/code/BGP/code/data/update-source"  # 替换为你的 .bz2 文件所在的文件夹路径
-    output_folder = "/home/skypapaya/code/BGP/code/data/output/update_table"  # 替换为解析结果输出文件夹路径
+    input_folder = "/home/skypapaya/code/BGP-Security/code/bgp-analyze/data/update-source/updates"  # 替换为你的 .bz2 文件所在的文件夹路径
+    output_folder = "/home/skypapaya/code/BGP-Security/code/bgp-analyze/txt/route-views.amsix/20211002"  # 替换为解析结果输出文件夹路径
     parse_bz2_files(input_folder, output_folder)

@@ -1,4 +1,8 @@
 #忽略bgp数据
-/data
+/code/bgp-analyze/data
+/code/bgp-analyze/txt
+/code/bgp-analyze/priming_data
 #忽略ide文件
 .idea
+.txt
+.bz2

@@ -24,6 +24,6 @@ def plot_attribute(file, attr_name:str):
     plt.savefig(f'{attr_name}.png', dpi=300)
 
 if __name__ == "__main__":
-    path = '/data/wuzheng_data/anomaly_event/route_leak/event2/'
+    path = '/home/skypapaya/code/BGP-Security/code/bgp-analyze/'
     file = 'graphfeatures.json'
     plot_attribute(path+file, 'pagerank')

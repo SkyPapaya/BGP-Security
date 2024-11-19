@@ -9,11 +9,11 @@ import time
 # python3 download.py -s 2023-07-21-00:00 -e 2023-07-21-00:00 -t BGP:RIBS -c routeviews -d ../downloaded_data/routeviews_rib
 
 if __name__=="__main__":
-    start_time = "2021-10-04-00:00"
-    end_time = "2021-10-05-00:00"
+    start_time = "2021-10-02-00:00"
+    end_time = "2021-10-03-00:00"
     data_types = "BGP:UPDATES"
     collector = "route-views.amsix"
-    destination = "/home/skypapaya/code/BGP/code/data/output/update_table"
+    destination = "/home/skypapaya/code/BGP-Security/code/bgp-analyze/data/update-source/updates"
     if not os.path.exists(destination):
         print("unknown dir")
     st = time.time()

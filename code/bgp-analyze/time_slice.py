@@ -195,18 +195,14 @@ class Feature:
 if __name__ == "__main__":
 
     # initialized info.
-
-
-    anomaly_start_time = "2018-11-12 21:12:00"
-    anomaly_end_time = "2018-11-12 22:32:00"
-
-    collector = 'rrc01'
-    path = "/home/skypapaya/code/BGP/code/data/"
+    collector = 'route-views.amsix'
+    path = "/home/skypapaya/code/BGP-Security/code/bgp-analyze/"
     data_path = path + 'txt/' + collector
-    start_time = "2002-07-23 05:57:30"
-    end_time = "2002-07-23 06:57:40"
-    anomaly_start_time = "2002-07-23 05:57:35"
-    anomaly_end_time = "2002-07-23 11:57:37"
+    start_time = "2021-10-04 00:00:00"
+    end_time = "2021-10-04 22:45:00"
+
+    anomaly_start_time = "2021-10-04 15:07:00"
+    anomaly_end_time = "2021-10-04 21:49:00"
 
 
     if t2s(start_time) > t2s(end_time):
