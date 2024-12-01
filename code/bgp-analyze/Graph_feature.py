@@ -227,7 +227,7 @@ if __name__ == "__main__":
     # initialized info.
     collector = 'route-views.amsix'
     path = "/home/skypapaya/code/BGP-Security/code/bgp-analyze/"
-    data_path = path + 'txt/' + collector
+    data_path = path + 'txt/' + collector +'/20211004'
     start_time = "2021-10-04 00:00:00"
     end_time = "2021-10-04 22:45:00"
 

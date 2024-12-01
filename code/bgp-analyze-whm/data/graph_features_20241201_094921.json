@@ -1,0 +1,11 @@
+{
+    "num_nodes": 167,
+    "num_edges": 741,
+    "avg_degree": 8.874251497005988,
+    "clustering_coefficient": 0.16489998794371555,
+    "avg_shortest_path_length": 3.048481350551908,
+    "is_connected": true,
+    "degree_centrality": 0.053459346367505954,
+    "betweenness_centrality": 0.012415038488193383,
+    "pagerank": 0.005988023952095807
+}
